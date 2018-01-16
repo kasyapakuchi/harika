@@ -1,31 +1,12 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <title></title>
-    <style type="text/css">
-        body
-        {
-            font-family: Arial;
-            font-size: 16px;
-        }
-        .font-button
-        {
-            background-color: #0090CB;
-            height: 50px;
-            width: 50px;
-            display: inline-block;
-            color: #fff;
-            text-align: center;
-            line-height: 50px;
-            font-size: 25pt;
-            cursor: pointer;
-        }
-    </style>
+<style>body {
+    font-size:120%;
+}</style>
 </head>
 <body>
-    <a class="font-button plus">A+</a> <a class="font-button minus">A-</a>
-<hr \>
-    <div>
-     <p><br />హే స్వామినాథ కరుణాకర దీనబంధో,<br />శ్రీపార్వతీశముఖపంకజ పద్మబంధో |<br />శ్రీశాదిదేవగణపూజితపాదపద్మ,<br />వల్లీసనాథ మమ దేహి కరావలంబమ్ || 1 ||</p>
+<font>
+<p><br /><br />హే స్వామినాథ కరుణాకర దీనబంధో,<br />శ్రీపార్వతీశముఖపంకజ పద్మబంధో |<br />శ్రీశాదిదేవగణపూజితపాదపద్మ,<br />వల్లీసనాథ మమ దేహి కరావలంబమ్ || 1 ||</p>
 <p>దేవాదిదేవనుత దేవగణాధినాథ,<br />దేవేంద్రవంద్య మృదుపంకజమంజుపాద |<br />దేవర్షినారదమునీంద్రసుగీతకీర్తే,<br />వల్లీసనాథ మమ దేహి కరావలంబమ్ || 2 ||</p>
 <p>నిత్యాన్నదాన నిరతాఖిల రోగహారిన్,<br />తస్మాత్ప్రదాన పరిపూరితభక్తకామ |<br />శృత్యాగమప్రణవవాచ్యనిజస్వరూప,<br />వల్లీసనాథ మమ దేహి కరావలంబమ్ || 3 ||</p>
 <p>క్రౌంచాసురేంద్ర పరిఖండన శక్తిశూల,<br />పాశాదిశస్త్రపరిమండితదివ్యపాణే |<br />శ్రీకుండలీశ ధృతతుండ శిఖీంద్రవాహ,<br />వల్లీసనాథ మమ దేహి కరావలంబమ్ || 4 ||</p>
@@ -36,24 +17,5 @@
 <p>సుబ్రహ్మణ్య కరావలంబం పుణ్యం యే పఠంతి ద్విజోత్తమాః |<br />తే సర్వే ముక్తి మాయాంతి సుబ్రహ్మణ్య ప్రసాదతః |<br />సుబ్రహ్మణ్య కరావలంబమిదం ప్రాతరుత్థాయ యః పఠేత్ |<br />కోటిజన్మకృతం పాపం 
 
 తత్‍క్షణాదేవ నశ్యతి ||</p>
-    </div>
-    <hr />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $(".font-button").bind("click", function () {
-                var size = parseInt($('body').css("font-size"));
-                if ($(this).hasClass("plus")) {
-                    size = size + 2;
-                } else {
-                    size = size - 2;
-                    if (size <= 10) {
-                        size = 10;
-                    }
-                }
-                $('body').css("font-size", size);
-            });
-        });
-    </script>
 </body>
 </html>
